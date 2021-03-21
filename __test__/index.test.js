@@ -1,6 +1,10 @@
 import myApp from '../src/index';
-const assert = require('assert');
+describe('myApp', () => {
+   if('При клике на элемент, который указан в data-toggl-target добавляется класс указанный data-toggl-add на указанный блок', () => {
+       expect(element.classList.contains('active')).toBe(true);
+   })
+});
 
-assert.equal(myApp(3),(9));
+
 
 
